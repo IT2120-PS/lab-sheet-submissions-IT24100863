@@ -1,0 +1,31 @@
+getwd()
+setwd("C:\\Users\\it24100863\\Desktop\\IT24101256_PS_Lab_06")
+getwd()
+dbinom(40,44,0.92)
+pbinom(35,44,0.92,lower.tail=TRUE)
+pbinom(37,44,0.92,lower.tail = FALSE)
+pbinom(42,44,0.92,lower.tail=TRUE)-pbinom(39,44,0.92,lower.tail =TRUE)
+
+
+dpois(6,5)
+ppois(6,5,lower.tail = FALSE)
+
+##Exercise
+#Part 1
+#Question 1
+#Binomial Distribution
+#Here,random variable X has binomial distribution with n=50 and p=0.85
+
+#Question 2
+pbinom(46,50,0.85,lower.tail = FALSE)
+
+#Part 2
+#Question 1
+#Number of customers calls per hour
+
+#Question 2
+#poisson distribution
+#Here ,random variable X has poisson distribution with lambda=12
+
+#Question 3
+dpois(15,12)
